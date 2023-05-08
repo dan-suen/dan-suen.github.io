@@ -11,6 +11,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "react-scripts": {
+      "typescript": "^5"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,6 +47,8 @@
     "eslint": "^8.40.0",
     "eslint-plugin-react": "^7.32.2",
     "prettier": "^2.8.8",
-    "selenium-webdriver": "^4.9.0"
+    "sass": "^1.62.1",
+    "selenium-webdriver": "^4.9.0",
+    "typescript": "^5.0.4"
   }
 }
