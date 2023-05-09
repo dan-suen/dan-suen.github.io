@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './sidebar.scss';
 
-export default function Siderbar(): JSX.Element {
+export default function Sidebar(): JSX.Element {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -9,10 +9,10 @@ export default function Siderbar(): JSX.Element {
   return (
     <div className="sidebar">
       <button onClick={toggleMenu}>
-        <span className="hamburger-icon"></span>
+        <span className="three-lines-icon"></span>
       </button>
       <div className={`side-menu ${showMenu ? 'open' : ''}`}>
-        <nav className="side-menu">
+        <nav>
           <ul>
             <li>
               <a href="#about">About Me</a>
