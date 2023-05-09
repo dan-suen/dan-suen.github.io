@@ -1,6 +1,13 @@
-.side-menu {
-  display: none;
-  &.open {
-    display: block;
+.sidebar {
+  width: 30%;
+  span {
+    height: 30%;
+    width: 30%;
+  }
+  .side-menu {
+    display: none;
+    &.open {
+      display: block;
+    }
   }
 }
