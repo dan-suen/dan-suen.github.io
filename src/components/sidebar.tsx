@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import './sidebar.scss';
 
-export default function About() {
+export default function Siderbar(): JSX.Element {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
   return (
     <div className="sidebar">
-      <button onClick={toggleMenu}>Toggle Menu</button>
+      <button onClick={toggleMenu}>
+        <span className="hamburger-icon"></span>
+      </button>
       <div className={`side-menu ${showMenu ? 'open' : ''}`}>
         <nav className="side-menu">
           <ul>

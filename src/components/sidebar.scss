@@ -1,0 +1,6 @@
+.side-menu {
+  display: none;
+  &.open {
+    display: block;
+  }
+}
