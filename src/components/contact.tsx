@@ -16,7 +16,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <h1>Feel Free to Reach Out!</h1>
       <form onSubmit={handleSubmit}>
         <label>

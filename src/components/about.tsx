@@ -3,7 +3,7 @@ import './about.scss';
 
 export default function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <h1>Hi, my name is Dan.</h1>
       <img src={process.env.PUBLIC_URL + '/dan-face.jpg'} alt="Daniel Suen" />
       <img src={process.env.PUBLIC_URL + '/dan-face 2.jpg'} alt="Daniel Suen" />
