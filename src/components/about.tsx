@@ -5,6 +5,7 @@ export default function About() {
   return (
     <div id="about" className="about">
       <h1>Hi, my name is Dan.</h1>
+      <h2>I am a  X developer</h2>
       <img src={process.env.PUBLIC_URL + '/dan-face.jpg'} alt="Daniel Suen" />
       <img src={process.env.PUBLIC_URL + '/dan-face 2.jpg'} alt="Daniel Suen" />
       <p>
