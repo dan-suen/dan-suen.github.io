@@ -4,6 +4,7 @@ import About from './components/about';
 import Contact from './components/contact';
 import Front from './components/front';
 import Sidebar from './components/sidebar';
+import Project from './components/projects';
 
 function App(): JSX.Element {
   return (
@@ -11,6 +12,7 @@ function App(): JSX.Element {
       <Front />
       <Sidebar />
       <About />
+      <Project/>
       <Contact />
     </div>
   );
