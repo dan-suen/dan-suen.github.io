@@ -6,6 +6,7 @@ export default function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const onSubmit = function () {
+    //insert emailjs here
     setName('');
     setEmail('');
     setMessage('');
