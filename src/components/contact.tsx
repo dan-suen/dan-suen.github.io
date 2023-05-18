@@ -12,49 +12,50 @@ export default function Contact() {
   const onSubmit = function () {
     setName('');
     setEmail('');
-            setMessage('');
+    setMessage('');
   };
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     emailjs.init(userId);
-    emailjs.sendForm(serviceId, templateId, e.currentTarget)
-      .then((response) => {
+    emailjs
+      .sendForm(serviceId, templateId, e.currentTarget)
+      .then(response => {
         console.log('Email sent successfully!', response.text);
         onSubmit();
       })
-      .catch((error) => {
+      .catch(error => {
         console.error('Error sending email:', error);
       });
   };
 
   return (
-    <div id="contact" className="contact">
+    <div id='contact' className='contact'>
       <h1>Feel Free to Reach Out!</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
           <input
-            type="text"
+            type='text'
             value={name}
-            onChange={(e) => setName(e.target.value)}
+            onChange={e => setName(e.target.value)}
           />
         </label>
         <label>
           Email:
           <input
-            type="email"
+            type='email'
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={e => setEmail(e.target.value)}
           />
         </label>
         <label>
           Message:
           <textarea
             value={message}
-            onChange={(e) => setMessage(e.target.value)}
+            onChange={e => setMessage(e.target.value)}
           />
         </label>
-        <button type="submit">Submit</button>
+        <button type='submit'>Submit</button>
       </form>
     </div>
   );
