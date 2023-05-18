@@ -1,33 +1,37 @@
 import React, { useState } from 'react';
 import './contact.scss';
-import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
-interface ContactFormProps {
+interface ContactFormProps extends React.DetailedHTMLProps<React.FormHTMLAttributes<HTMLFormElement>, HTMLFormElement> {
   serviceId: string;
   templateId: string;
   userId: string;
 }
 
+
 export default function Contact({ serviceId, templateId, userId }: ContactFormProps) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const serviceId = 'service_3iozduh';
+  const templateId = 'template_tamc4qh';
+  const userId = 'VVPJxWc4NaNP5MZQH';
   const onSubmit = function () {
     setName('');
     setEmail('');
             setMessage('');
   };
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     emailjs.init(userId);
     emailjs.sendForm(serviceId, templateId, e.currentTarget)
-    .then((response: EmailJSResponseStatus) => {
-      console.log('Email sent successfully!', response.text);
-          onSubmit();
-    })
-    .catch((error: any) => {
-      console.error('Error sending email:', error);
-    });
+      .then((response) => {
+        console.log('Email sent successfully!', response.text);
+        onSubmit();
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
   };
 
   return (
@@ -52,8 +56,7 @@ export default function Contact({ serviceId, templateId, userId }: ContactFormPr
         </label>
         <label>
           Message:
-          <input
-            type="text"
+          <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />

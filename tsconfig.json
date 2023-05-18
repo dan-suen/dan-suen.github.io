@@ -11,7 +11,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "moduleResolution":"nodenext",
+    "moduleResolution":"node",
   },
   "include": ["src"]
 }
