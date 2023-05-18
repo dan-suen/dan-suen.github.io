@@ -37,6 +37,8 @@ export default function Contact() {
           <input
             type='text'
             value={name}
+            name='from_name'
+            id='from_name'
             onChange={e => setName(e.target.value)}
           />
         </label>
@@ -45,6 +47,8 @@ export default function Contact() {
           <input
             type='email'
             value={email}
+            name='reply_to'
+            id='reply_to'
             onChange={e => setEmail(e.target.value)}
           />
         </label>
@@ -52,6 +56,8 @@ export default function Contact() {
           Message:
           <textarea
             value={message}
+            name='message'
+            id='message'
             onChange={e => setMessage(e.target.value)}
           />
         </label>
