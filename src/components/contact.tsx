@@ -2,14 +2,7 @@ import React, { useState } from 'react';
 import './contact.scss';
 import emailjs from '@emailjs/browser';
 
-interface ContactFormProps extends React.DetailedHTMLProps<React.FormHTMLAttributes<HTMLFormElement>, HTMLFormElement> {
-  serviceId: string;
-  templateId: string;
-  userId: string;
-}
-
-
-export default function Contact({ serviceId, templateId, userId }: ContactFormProps) {
+export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
