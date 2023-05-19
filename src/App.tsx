@@ -8,12 +8,14 @@ import Project from './components/projects';
 
 function App(): JSX.Element {
   return (
-    <div className="App">
-      <Front />
+    <div className='App'>
       <Sidebar />
-      <About />
-      <Project/>
-      <Contact />
+      <div className='other-elements'>
+        <Front />
+        <About />
+        <Project />
+        <Contact />
+      </div>
     </div>
   );
 }
