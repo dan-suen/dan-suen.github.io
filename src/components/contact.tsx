@@ -40,6 +40,7 @@ export default function Contact() {
             name='from_name'
             id='from_name'
             onChange={e => setName(e.target.value)}
+            required
           />
         </label>
         <label>
@@ -50,6 +51,7 @@ export default function Contact() {
             name='reply_to'
             id='reply_to'
             onChange={e => setEmail(e.target.value)}
+            required
           />
         </label>
         <label>
@@ -59,6 +61,7 @@ export default function Contact() {
             name='message'
             id='message'
             onChange={e => setMessage(e.target.value)}
+            required
           />
         </label>
         <button type='submit'>Submit</button>
