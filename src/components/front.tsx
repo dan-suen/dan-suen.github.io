@@ -3,9 +3,9 @@ import './front.scss';
 
 export default function Front(): JSX.Element {
   return (
-    <div id="front" className="front">
+    <div id='front' className='front'>
       <h1>Welcome!</h1>
-      <a href="#about" className="enter-button">
+      <a className='btn btn-outline-dark enter-button' href='#about'>
         Enter
       </a>
     </div>
