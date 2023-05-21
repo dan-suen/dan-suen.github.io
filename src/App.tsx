@@ -5,6 +5,7 @@ import Contact from './components/contact';
 import Front from './components/front';
 import Sidebar from './components/sidebar';
 import Project from './components/projects';
+import Reach from './components/reach';
 
 function App(): JSX.Element {
   return (
@@ -14,6 +15,7 @@ function App(): JSX.Element {
         <Front />
         <About />
         <Project />
+        <Reach />
         <Contact />
       </div>
     </div>
