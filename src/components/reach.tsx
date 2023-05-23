@@ -7,10 +7,18 @@ export default function Reach(): JSX.Element {
       <h1>Other ways to find Me:</h1>
       <ul>
         <li>
-          <a href='https://github.com/dan-suen'>Github</a>
+          <a
+            className='btn btn-outline-dark enter-button'
+            href='https://github.com/dan-suen'
+          >
+            Github
+          </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/in/daniel-suen-5182b6149/'>
+          <a
+            className='btn btn-outline-dark enter-button'
+            href='https://www.linkedin.com/in/daniel-suen-5182b6149/'
+          >
             LinkedIn
           </a>
         </li>
