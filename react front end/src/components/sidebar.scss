@@ -1,0 +1,40 @@
+.sidebar {
+  position: fixed;
+  button {
+    .three-lines-icon {
+      height: 30%;
+      width: 30%;
+      padding-left: 1.25em;
+      position: relative;
+    }
+    .three-lines-icon:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.21em;
+      bottom: 0.21em;
+      width: 1em;
+      background: linear-gradient(
+        to bottom,
+        black,
+        black 20%,
+        white 20%,
+        white 40%,
+        black 40%,
+        black 60%,
+        white 60%,
+        white 80%,
+        black 80%,
+        black 100%
+      );
+    }
+  }
+  .side-menu {
+    display: none;
+    background-color: yellow;
+    height: 100vh;
+    &.open {
+      display: block;
+    }
+  }
+}
