@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.scss';
-import About from './components/about';
-import Contact from './components/contact';
-import Front from './components/front';
 import Sidebar from './components/sidebar';
+import Front from './components/front';
+import About from './components/about';
+import Skill from './components/skills';
 import Project from './components/projects';
 import Reach from './components/reach';
+import Contact from './components/contact';
 
 function App(): JSX.Element {
   return (
@@ -14,6 +15,7 @@ function App(): JSX.Element {
       <div className='other-elements'>
         <Front />
         <About />
+        <Skill />
         <Project />
         <Reach />
         <Contact />
