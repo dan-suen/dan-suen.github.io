@@ -22,6 +22,17 @@ export default function Reach(): JSX.Element {
             LinkedIn
           </a>
         </li>
+        <li>
+          <a
+            className='btn btn-outline-dark enter-button'
+            href='mailto:danielsuen200791357@gmail.com'
+          >
+            Email : danielsuen200791357@gmail.com
+          </a>
+        </li>
+        <li className='btn btn-outline-dark enter-button'>
+          Phone : 416 804 8855
+        </li>
       </ul>
     </div>
   );
