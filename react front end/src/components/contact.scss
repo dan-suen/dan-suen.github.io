@@ -2,5 +2,12 @@
   form {
     display: flex;
     flex-direction: column;
+    button {
+      width: 10%;
+      margin: auto;
+    }
+    label {
+      justify-content: flex-start;
+    }
   }
 }

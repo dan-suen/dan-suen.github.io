@@ -6,7 +6,7 @@ export default function Front(): JSX.Element {
     <div id='front' className='front'>
       <h1>Welcome!</h1>
       <a className='btn btn-outline-dark enter-button' href='#about'>
-        Learn More
+        Enter
       </a>
     </div>
   );

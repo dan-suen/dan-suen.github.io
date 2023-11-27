@@ -7,7 +7,11 @@ export default function Project(): JSX.Element {
       <h1>My Projects</h1>
       <div className='project-items'>
         <div className='card'>
-          <img src='...' className='card-img-top' alt='...' />
+          <img
+            src='/getogether.png'
+            className='card-img-top'
+            alt='GeTogether'
+          />
           <div className='card-body'>
             <h5 className='card-title'>Getogether</h5>
             <p className='card-text'>
@@ -25,7 +29,11 @@ export default function Project(): JSX.Element {
           </div>
         </div>
         <div className='card'>
-          <img src='...' className='card-img-top' alt='...' />
+          <img
+            src='/marketplace.png'
+            className='card-img-top'
+            alt='Marketplace'
+          />
           <div className='card-body'>
             <h5 className='card-title'>Marketplace</h5>
             <p className='card-text'>
