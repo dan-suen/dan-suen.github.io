@@ -32,38 +32,47 @@ export default function Contact() {
     <div id='contact' className='contact'>
       <h1>Feel Free to Reach Out!</h1>
       <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input
-            type='text'
-            value={name}
-            name='from_name'
-            id='from_name'
-            onChange={e => setName(e.target.value)}
-            required
-          />
-        </label>
-        <label>
-          Email:
-          <input
-            type='email'
-            value={email}
-            name='reply_to'
-            id='reply_to'
-            onChange={e => setEmail(e.target.value)}
-            required
-          />
-        </label>
-        <label>
-          Message:
-          <textarea
-            value={message}
-            name='message'
-            id='message'
-            onChange={e => setMessage(e.target.value)}
-            required
-          />
-        </label>
+        <div>
+          <label>
+            Name:&nbsp;
+            <br />
+            <input
+              type='text'
+              value={name}
+              name='from_name'
+              id='from_name'
+              onChange={e => setName(e.target.value)}
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            Email: &nbsp;
+            <br />
+            <input
+              type='email'
+              value={email}
+              name='reply_to'
+              id='reply_to'
+              onChange={e => setEmail(e.target.value)}
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            Message:&nbsp;
+            <br />
+            <textarea
+              value={message}
+              name='message'
+              id='message'
+              onChange={e => setMessage(e.target.value)}
+              required
+            />
+          </label>
+        </div>
         <button type='submit'>Submit</button>
       </form>
     </div>
