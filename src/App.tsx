@@ -1,10 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./App.css";
-import Footer from "./components/footer/footer.js";
+import "./App.scss";
+import Footer from "./components/footer/footer";
+import Header from './components/header/header';
+import Email from './components/email/email';
 function App() {
   return (
     <div className="App">
-      <p>filler</p>
+      <Header/>
+      <Email/>
       <Footer/>
     </div>
   );

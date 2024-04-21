@@ -12,6 +12,9 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/daniel-suen-5182b6149/">
             <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
           </a>
+          <a href="https://github.com/dan-suen">
+            <img src="https://img.shields.io/badge/-GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=black" />
+          </a>
           <a href="mailto: danielsuen200791357@gmail.com">
             <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
           </a>
