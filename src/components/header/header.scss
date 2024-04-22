@@ -1,8 +1,8 @@
 header {
   display: flex;
-  height: 10em;
+  height: 100%;
   width:auto;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1;
   img {
     justify-content: center;
@@ -10,7 +10,8 @@ header {
     border-radius: 25%;
     width: 10em; 
     height: auto; 
-    object-fit: contain; 
+    object-fit: contain;
+    margin-right: 10px; 
   }
   div {
     color: #ffffff;

@@ -65,71 +65,44 @@ function App() {
         console.log(container);
     });
     const options = (0, react_1.useMemo)(() => ({
-        background: {
-            color: {
-                value: "#0d47a1",
-            },
-        },
-        fpsLimit: 120,
-        interactivity: {
-            events: {
-                onClick: {
-                    enable: true,
-                    mode: "push",
-                },
-                onHover: {
-                    enable: true,
-                    mode: "repulse",
-                },
-            },
-            modes: {
-                push: {
-                    quantity: 4,
-                },
-                repulse: {
-                    distance: 200,
-                    duration: 0.4,
-                },
-            },
-        },
+        key: "big",
+        name: "Big Particles",
         particles: {
-            color: {
-                value: "#ffffff",
-            },
-            links: {
-                color: "#ffffff",
-                distance: 150,
-                enable: true,
-                opacity: 0.5,
-                width: 1,
-            },
-            move: {
-                direction: "none" /* MoveDirection.none */,
-                enable: true,
-                outModes: {
-                    default: "out" /* OutMode.out */,
-                },
-                random: false,
-                speed: 6,
-                straight: false,
-            },
             number: {
-                density: {
-                    enable: true,
-                },
-                value: 80,
+                value: 30,
             },
-            opacity: {
-                value: 0.5,
+            color: {
+                value: ["#5bc0eb", "#fde74c", "#9bc53d", "#e55934", "#fa7921"],
             },
             shape: {
                 type: "circle",
             },
+            opacity: {
+                value: {
+                    min: 0.4,
+                    max: 0.8,
+                },
+            },
             size: {
-                value: { min: 1, max: 5 },
+                value: {
+                    min: 300,
+                    max: 400,
+                },
+                animation: {
+                    enable: true,
+                    speed: 100,
+                    sync: false,
+                },
+            },
+            move: {
+                enable: true,
+                speed: 10,
+                direction: "top",
             },
         },
-        detectRetina: true,
+        background: {
+            color: "#ffffff",
+        },
     }), []);
     if (init) {
         return ((0, jsx_runtime_1.jsxs)("div", Object.assign({ className: "App" }, { children: [(0, jsx_runtime_1.jsx)(react_2.default, { id: "tsparticles", particlesLoaded: particlesLoaded, options: options }), (0, jsx_runtime_1.jsx)(header_1.default, {}), (0, jsx_runtime_1.jsxs)("body", { children: [(0, jsx_runtime_1.jsx)(projects_1.default, {}), (0, jsx_runtime_1.jsx)(resume_1.default, {}), (0, jsx_runtime_1.jsx)(email_1.default, {}), (0, jsx_runtime_1.jsx)("canvas", { className: "background" }), (0, jsx_runtime_1.jsx)("script", { src: "path/to/particles.min.js" })] }), (0, jsx_runtime_1.jsx)(footer_1.default, {})] })));
