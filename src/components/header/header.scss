@@ -3,6 +3,7 @@ header {
   height: 10em;
   width:auto;
   justify-content: space-around;
+  z-index: 1;
   img {
     justify-content: center;
     align-items: center;
@@ -12,6 +13,7 @@ header {
     object-fit: contain; 
   }
   div {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
