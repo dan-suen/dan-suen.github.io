@@ -3,4 +3,18 @@
 }
 .items{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .card{
+    max-height: 20em;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
