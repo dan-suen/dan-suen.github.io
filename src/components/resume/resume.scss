@@ -3,4 +3,13 @@
   border-radius: 15%;
   color: white;
   width: 100%;
+  img {
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    width: 10em; 
+    height: auto; 
+    object-fit: contain;
+    margin-right: 10px; 
+  }
 }

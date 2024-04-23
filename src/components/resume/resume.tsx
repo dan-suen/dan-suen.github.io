@@ -1,13 +1,16 @@
 import "./resume.scss";
+import me from "./me.jpg";
+
 export default function Resume() {
   return (
     <div className="resume">
       <h1> Hello! 👋</h1>
+      <img src={me} className="img-fluid" alt="Daniel Suen"></img>
       <h3>I'm Dan.</h3>
       <p>
         I'm a recent graduate from the Lighthouse Labs Full-stack Web
-        Development bootcamp, and former STEM undergraduate from the University of Toronto. I love to learn and
-        tinker with new technologies.
+        Development bootcamp, and former STEM undergraduate from the University
+        of Toronto. I love to learn and tinker with new technologies.
       </p>
       <p>
         After all, the most satisfying thing with using technology is the little

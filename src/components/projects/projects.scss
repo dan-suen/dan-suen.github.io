@@ -16,6 +16,11 @@
     .col-md-4{
       min-height: 250px;
       max-height: 250px;
+      a {
+        img {
+          margin: 1em;
+        }
+      }
     }
   }
 }
