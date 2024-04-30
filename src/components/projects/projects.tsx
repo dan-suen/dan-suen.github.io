@@ -73,10 +73,13 @@ export default function Projects() {
       <br />
       <h1>Some of my Projects:</h1>
       <div className="items">
-      <div className="card mb-3" style={card}>
+        <div className="card mb-3" style={card}>
           <div className="row g-0">
             <div className="col-md-4">
-              <a href="https://github.com/dan-suen/all-about-me" target="_blank">
+              <a
+                href="https://github.com/dan-suen/all-about-me"
+                target="_blank"
+              >
                 <img
                   src={all_about_me}
                   className="img-fluid rounded-start"
@@ -88,10 +91,10 @@ export default function Projects() {
               <div className="card-body">
                 <h5 className="card-title">All About Me</h5>
                 <p className="card-text">
-                This site was built using a mixture of JS, TS and React. It
+                  This site was built using a mixture of JS, TS and React. It
                   features a little section about myself, my skills and my
                   contact info. You can also contact me via the textbox at the
-                  bottom of the page! 
+                  bottom of the page!
                 </p>
               </div>
             </div>
@@ -146,12 +149,9 @@ export default function Projects() {
                 </p>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-

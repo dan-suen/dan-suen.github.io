@@ -42,16 +42,18 @@ export default function Resume() {
         👯 I’m looking to collaborate on anything level-appropriate, especially
         if it's an opportunity with Vue or Typescript.
       </p>
-      ⚡ Fun fact:
-      <br />
-      <em>
-        log<sub>2</sub>(n) = &theta; (log<sub>8</sub>(n))
-      </em>{" "}
-      and{" "}
-      <em>
-        log<sub>8</sub>(n) = &theta; (log<sub>2</sub>(n))
-      </em>
-      <br />
+      <p>
+        ⚡ Fun fact:
+        <br />
+        <em>
+          log<sub>2</sub>(n) = &theta; (log<sub>8</sub>(n))
+        </em>{" "}
+        and{" "}
+        <em>
+          log<sub>8</sub>(n) = &theta; (log<sub>2</sub>(n))
+        </em>
+        <br />
+      </p>
       <p>Those who know, know.</p>
       <br />
     </div>

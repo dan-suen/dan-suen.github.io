@@ -1,6 +1,6 @@
 import "./footer.scss";
 const divStyle: React.CSSProperties = {
-  width: '100%'
+  width: "100%",
 };
 export default function Footer() {
   return (
