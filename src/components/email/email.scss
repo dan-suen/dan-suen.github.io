@@ -30,7 +30,11 @@ form {
         margin: 0px;
         font-family: Arial, sans-serif;
         font-weight: bold;
-        text-shadow: 0 0 15px black;
+        text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
       }
     }
   }
