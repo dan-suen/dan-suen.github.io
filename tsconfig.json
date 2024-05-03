@@ -111,6 +111,7 @@
     "src/**/*.tsx",
     "src/**/*.ts",
     "src/**/*.svg",
-    "src/components"
+    "src/**/*.png",
+    "src/components**/*"
   ]
 }

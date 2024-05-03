@@ -1,6 +1,8 @@
 import getogether from "./getogether.png";
 import marketplace from "./marketplace.png";
-import all_about_me from "./all-about-me.png";
+import dan_suen from "./dan-suen.github.io.png";
+import halloumi from "./halloumi.png";
+
 import "./projects.scss";
 
 export default function Projects() {
@@ -79,13 +81,14 @@ export default function Projects() {
             <div className="row g-0">
               <div className="col-md-4">
                 <a
-                  href="https://github.com/dan-suen/all-about-me"
+                  href="https://github.com/dan-suen/dan-suen.github.io"
                   target="_blank"
                 >
                   <img
-                    src={all_about_me}
+                    src={dan_suen}
                     className="img-fluid rounded-start"
-                    alt="all-about-me"
+                    alt="dan-suen.github.io
+                    "
                   />
                 </a>
               </div>
@@ -95,14 +98,13 @@ export default function Projects() {
                   <p className="card-text">
                     This site was built using a mixture of JS, TS and React. It
                     features a little section about myself, my skills and my
-                    contact info. You can also contact me via the textbox at the
-                    bottom of the page!
+                    contact info. You can also contact me via the textbox on the
+                    Contact Page!
                   </p>
                 </div>
               </div>
             </div>
           </div>
-
           <div className="card mb-3" style={card}>
             <div className="row g-0">
               <div className="col-md-4">
@@ -155,6 +157,29 @@ export default function Projects() {
                     supplemented by a plethora of additional libararies
                     including react-router, react day-picker and even Google
                     maps!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card mb-3" style={card}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <a href="https://github.com/dan-suen/Halloumi/" target="_blank">
+                  <img
+                    src={halloumi}
+                    className="img-fluid rounded-start"
+                    alt="halloumi"
+                  />
+                </a>
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Halloumi</h5>
+                  <p className="card-text">
+                    Halloumi is a ready-to-use chrome extension built using
+                    React and Typescript that allows users to send texts from
+                    the Google Chrome browser via the Twilio SMS API.
                   </p>
                 </div>
               </div>
