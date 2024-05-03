@@ -94,7 +94,7 @@ export default function Projects() {
               </div>
               <div className="col-md-8">
                 <div className="card-body">
-                  <h5 className="card-title">All About Me</h5>
+                  <h5 className="card-title">dan-suen.github.io</h5>
                   <p className="card-text">
                     This site was built using a mixture of JS, TS and React. It
                     features a little section about myself, my skills and my
