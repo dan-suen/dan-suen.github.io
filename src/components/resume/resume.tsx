@@ -8,7 +8,9 @@ export default function Resume() {
       <img src={me} className="img-fluid" alt="Daniel Suen"></img>
       <h3>I'm Dan.</h3>
       <p>
-        I'm a Computer Science Co-op student at Toronto Metropolitan University. I love building things that feel right to use — the kind of software where the details are clearly cared about.
+        I'm a Computer Science Co-op student at Toronto Metropolitan University.
+        I love building things that feel right to use — the kind of software
+        where the details are clearly cared about.
       </p>
       <p>
         After all, the most satisfying thing with using technology is the little
@@ -32,10 +34,23 @@ export default function Resume() {
       </p>
       <br />
       <br />
-     <p>🔭 Currently heads-down on coursework (Operating Systems, Programming Languages, Software Engineering, and more).</p>
-<p>🌱 My personal site is live at <a href="https://dan-suen.github.io">dan-suen.github.io</a>.</p>
-<p>📱 Recent project: <strong>Chess Expo</strong> — a mobile chess app for Android where you play against Stockfish, built with React Native + Expo + TypeScript.</p>
-<p>👯 Open to collaborating on anything level-appropriate, especially with TypeScript, React, or React Native.</p>
+      <p>
+        🔭 Currently heads-down on coursework (Operating Systems, Programming
+        Languages, Software Engineering, and more).
+      </p>
+      <p>
+        🌱 My personal site is live at{" "}
+        <a href="https://dan-suen.github.io">dan-suen.github.io</a>.
+      </p>
+      <p>
+        📱 Recent project: <strong>Chess Expo</strong> — a mobile chess app for
+        Android where you play against Stockfish, built with React Native + Expo
+        + TypeScript.
+      </p>
+      <p>
+        👯 Open to collaborating on anything level-appropriate, especially with
+        TypeScript, React, or React Native.
+      </p>
 
       <p>
         ⚡ Fun fact:
