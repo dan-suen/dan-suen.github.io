@@ -251,7 +251,7 @@ export default function Projects() {
           <div className="card mb-3" style={card}>
             <div className="row g-0">
               <div className="col-md-4" style={{ overflow: "hidden" }}>
-                <a href="https://github.com/dan-suen/chess-expo" target="_blank">
+                <a href="https://github.com/dan-suen/expo-chess-test/" target="_blank">
                   <img
                     src={chess_expo}
                     className="img-fluid rounded-start"
