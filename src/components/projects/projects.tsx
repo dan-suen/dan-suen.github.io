@@ -2,6 +2,7 @@ import getogether from "./getogether.png";
 import marketplace from "./marketplace.png";
 import dan_suen from "./dan-suen.github.io.png";
 import halloumi from "./halloumi.png";
+import chess_expo from "./chess-expo.png";
 
 import "./projects.scss";
 
@@ -79,7 +80,7 @@ export default function Projects() {
         <div className="items">
           <div className="card mb-3" style={card}>
             <div className="row g-0">
-              <div className="col-md-4">
+              <div className="col-md-4" style={{ overflow: "hidden" }}>
                 <a
                   href="https://github.com/dan-suen/dan-suen.github.io"
                   target="_blank"
@@ -87,8 +88,8 @@ export default function Projects() {
                   <img
                     src={dan_suen}
                     className="img-fluid rounded-start"
-                    alt="dan-suen.github.io
-                    "
+                    alt="dan-suen.github.io"
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
                   />
                 </a>
               </div>
@@ -107,7 +108,7 @@ export default function Projects() {
           </div>
           <div className="card mb-3" style={card}>
             <div className="row g-0">
-              <div className="col-md-4">
+              <div className="col-md-4" style={{ overflow: "hidden" }}>
                 <a
                   href="https://github.com/dan-suen/marketplace"
                   target="_blank"
@@ -116,6 +117,7 @@ export default function Projects() {
                     src={marketplace}
                     className="img-fluid rounded-start"
                     alt="marketplace"
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
                   />
                 </a>
               </div>
@@ -136,7 +138,7 @@ export default function Projects() {
           </div>
           <div className="card mb-3" style={card}>
             <div className="row g-0">
-              <div className="col-md-4">
+              <div className="col-md-4" style={{ overflow: "hidden" }}>
                 <a
                   href="https://github.com/dan-suen/GeTogether"
                   target="_blank"
@@ -145,6 +147,7 @@ export default function Projects() {
                     src={getogether}
                     className="img-fluid rounded-start"
                     alt="getogether"
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
                   />
                 </a>
               </div>
@@ -164,12 +167,13 @@ export default function Projects() {
           </div>
           <div className="card mb-3" style={card}>
             <div className="row g-0">
-              <div className="col-md-4">
+              <div className="col-md-4" style={{ overflow: "hidden" }}>
                 <a href="https://github.com/dan-suen/Halloumi/" target="_blank">
                   <img
                     src={halloumi}
                     className="img-fluid rounded-start"
                     alt="halloumi"
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
                   />
                 </a>
               </div>
@@ -180,6 +184,31 @@ export default function Projects() {
                     Halloumi is a ready-to-use chrome extension built using
                     React and Typescript that allows users to send texts from
                     the Google Chrome browser via the Twilio SMS API.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card mb-3" style={card}>
+            <div className="row g-0">
+              <div className="col-md-4" style={{ overflow: "hidden" }}>
+                <a href="https://github.com/dan-suen/chess-expo" target="_blank">
+                  <img
+                    src={chess_expo}
+                    className="img-fluid rounded-start"
+                    alt="chess-expo"
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                  />
+                </a>
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Chess Expo</h5>
+                  <p className="card-text">
+                    Chess Expo is a mobile chess application for Android built
+                    with React Native, Expo, and TypeScript. It lets users play
+                    against the Stockfish chess engine via a JavaScript/Express
+                    backend.
                   </p>
                 </div>
               </div>
